@@ -306,6 +306,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 5
+  paddingLeft: 0.5
+  paddingRight: 0.5
+  paddingTop: 5
+  paddingBottom: 2
 --- !u!1 &1692936165
 GameObject:
   m_ObjectHideFlags: 0
@@ -413,6 +417,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ' Enemy 0'
       objectReference: {fileID: 0}
+    - target: {fileID: 3112389987539749441, guid: 621ab76df7bcbb34f92065b7811fd768, type: 3}
+      propertyPath: waveConfig
+      value: 
+      objectReference: {fileID: 11400000, guid: b66c32eb3d524e143bfec28d180a0272, type: 2}
     - target: {fileID: 4498499803515408832, guid: 621ab76df7bcbb34f92065b7811fd768, type: 3}
       propertyPath: m_RootOrder
       value: 2
